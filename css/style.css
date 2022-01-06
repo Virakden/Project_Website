@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.col-sm-5 img{
+    width: 170px;
+    height: 50px;
+}
+.dropdown a{
+    font-family: Khmer OS System;
+    font-weight: bold;
+}
+.dropdown img{
+    width: 30px;
+    height: 20px;
+    margin-top: -2px;
+    margin-left: 20px;
+}
+.dropdown-item:hover{
+    background-color: #ed5353;
+}
+.carousel-item img{
+    width: 100%;
+    height: 62vh;
+}
+.box{
+    text-align: center;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.box p{
+    color: #fff;
+    font-family: khmer OS Content;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.col-sm-6 p{
+    font-family: khmer OS Content;
+    font-weight: bold;
+}
+.about{
+    width: 600px;
+    margin: auto;
+}
+.about ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.about ul li{
+    float: left;
+}
+.about ul li a{
+    padding: 10px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    font-family: khmer OS Content;
+    text-align: center;
+    font-size: 13px;
+}
+.about p{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: khmer OS Content;
+    font-size: 13px;
+}
+.about i{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
